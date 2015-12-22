@@ -5,3 +5,6 @@ license 'all_rights'
 description 'Installs/Configures nginix'
 long_description 'Installs/Configures nginix'
 version '0.1.0'
+
+
+depends 'nginx', '~> 2.7.6'
