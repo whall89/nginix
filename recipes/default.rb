@@ -4,10 +4,8 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
+log"done"
 
-package "git"
-
-log"done!"
 
 
 include_recipe "nginx::#{node['nginx']['install_method']}"
