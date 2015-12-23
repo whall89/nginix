@@ -1,9 +1,9 @@
-name 'nginix'
+name 'second_cookbook'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'all_rights'
-description 'Installs/Configures nginix'
-long_description 'Installs/Configures nginix'
+description 'Installs/Configures second_cookbook'
+long_description 'Installs/Configures second_cookbook'
 version '0.1.0'
 
 

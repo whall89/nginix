@@ -3,12 +3,7 @@ driver:
   name: vagrant
 
 provisioner:
-  name: chef_zero
-
-# Uncomment the following verifier to leverage Inspec instead of Busser (the
-# default verifier)
-# verifier:
-#   name: inspec
+  name: chef_solo
 
 platforms:
   - name: centos-6.7
@@ -18,3 +13,7 @@ suites:
     run_list:
       - recipe[nginix::default]
     attributes:
+  - name: server
+    run_list:
+      - recipe[nginix::server]
+    attributes:	
